@@ -1,0 +1,16 @@
+<configuration>
+    <input>
+        <net-file value="corridor_mixed.net.xml"/>
+        <route-files value="corridor.rou.xml"/>
+        <additional-files value="corridor.add.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="2000"/>
+        <step-length value="0.2"/>
+    </time>
+    <gui_only>
+        <start value="true"/>
+    </gui_only>
+</configuration>
+

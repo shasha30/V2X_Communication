@@ -1,0 +1,12 @@
+<additional>
+    <poi id="RSU_A2" x="600" y="10" type="RSU" color="1,0,0">
+        <param key="range_m" value="150"/>
+    </poi>
+    <poi id="RSU_A4" x="1200" y="10" type="RSU" color="0,1,0">
+        <param key="range_m" value="150"/>
+    </poi>
+
+    <laneAreaDetector id="det_A2E" lane="A2_A3_0" pos="5" length="50" freq="60" file="det_a2_east.xml"/>
+    <laneAreaDetector id="det_A2W" lane="A2_A1_0" pos="5" length="50" freq="60" file="det_a2_west.xml"/>
+</additional>
+

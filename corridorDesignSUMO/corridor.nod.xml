@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes>
+    <!-- Main corridor A0 → A5 (east–west) -->
+    <node id="A0" x="0"   y="0"  type="priority"/>
+    <node id="A1" x="300" y="0"  type="priority"/>
+    <node id="A2" x="600" y="0"  type="priority"/>
+    <node id="A3" x="900" y="0"  type="priority"/>
+    <node id="A4" x="1200" y="0" type="priority"/>
+    <node id="A5" x="1500" y="0" type="priority"/>
+
+    <!-- Side streets (north–south) onto A2 and A4 -->
+    <node id="S2N" x="600"  y="200" type="priority"/>
+    <node id="S2S" x="600"  y="-200" type="priority"/>
+    <node id="S4N" x="1200" y="200" type="priority"/>
+    <node id="S4S" x="1200" y="-200" type="priority"/>
+</nodes>

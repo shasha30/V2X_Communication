@@ -1,0 +1,30 @@
+<edges>
+    <!-- East-West Main Corridor (Left-hand rule, 3 lanes each side) -->
+    <edge id="A0_A1" from="A0" to="A1" numLanes="3" speed="15.0" width="3.2"/>
+    <edge id="A1_A0" from="A1" to="A0" numLanes="3" speed="15.0" width="3.2"/>
+
+    <edge id="A1_A2" from="A1" to="A2" numLanes="3" speed="11.1" width="3.0"/>
+    <edge id="A2_A1" from="A2" to="A1" numLanes="3" speed="11.1" width="3.0"/>
+
+    <edge id="A2_A3" from="A2" to="A3" numLanes="3" speed="13.9" width="3.0"/>
+    <edge id="A3_A2" from="A3" to="A2" numLanes="3" speed="13.9" width="3.0"/>
+
+    <!-- Missing edges added below -->
+    <edge id="A3_A4" from="A3" to="A4" numLanes="3" speed="13.9" width="3.0"/>
+    <edge id="A4_A3" from="A4" to="A3" numLanes="3" speed="13.9" width="3.0"/>
+
+    <edge id="A4_A5" from="A4" to="A5" numLanes="3" speed="15.0" width="3.0"/>
+    <edge id="A5_A4" from="A5" to="A4" numLanes="3" speed="15.0" width="3.0"/>
+
+    <!-- Connectors for turns (left/right) -->
+    <edge id="A2_S2N" from="A2" to="S2N" numLanes="1" speed="10.0"/>
+    <edge id="S2N_A2" from="S2N" to="A2" numLanes="1" speed="10.0"/>
+    <edge id="A2_S2S" from="A2" to="S2S" numLanes="1" speed="10.0"/>
+    <edge id="S2S_A2" from="S2S" to="A2" numLanes="1" speed="10.0"/>
+
+    <edge id="A4_S4N" from="A4" to="S4N" numLanes="1" speed="10.0"/>
+    <edge id="S4N_A4" from="S4N" to="A4" numLanes="1" speed="10.0"/>
+    <edge id="A4_S4S" from="A4" to="S4S" numLanes="1" speed="10.0"/>
+    <edge id="S4S_A4" from="S4S" to="A4" numLanes="1" speed="10.0"/>
+</edges>
+

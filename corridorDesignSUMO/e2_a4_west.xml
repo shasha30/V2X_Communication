@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-10-14 22:34:14 by Eclipse SUMO GUI Version v1_23_1+0795-ebc678e644a
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/host/project/corridor/corridor.net.xml"/>
+        <route-files value="/home/host/project/corridor/corridor.rou.xml"/>
+        <additional-files value="/home/host/project/corridor/corridor.add.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="1200"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+    <gui_only>
+        <start value="true"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e2_file.xsd">
+</detector>

@@ -1,0 +1,1 @@
+sim_time,lane_id,edge_id,allowed_vclasses,max_speed,mean_speed_last_step,veh_count_last_step

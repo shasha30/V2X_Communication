@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<net version="1.9">
+    <location netOffset="0.00,0.00" convBoundary="0.00,0.00,200.00,50.00"
+              origBoundary="0.00,0.00,200.00,50.00"
+              projParameter="+proj=utm +zone=33 +datum=WGS84 +units=m +no_defs"/>
+
+    <!-- Junctions -->
+    <junction id="j0" x="0.00" y="25.00" type="priority"/>
+    <junction id="j1" x="200.00" y="25.00" type="priority"/>
+    <junction id="pj1" x="100.00" y="0.00" type="priority"/>
+    <junction id="pj2" x="100.00" y="50.00" type="priority"/>
+
+    <!-- Vehicle edge -->
+    <edge id="vehEdge" from="j0" to="j1" priority="1">
+        <lane id="vehEdge_0" index="0" speed="13.9" length="200.0" shape="0.00,25.00 200.00,25.00"/>
+    </edge>
+
+    <!-- Pedestrian edges -->
+    <edge id="pedEdge1" from="pj1" to="pj2" priority="1" type="pedestrian">
+        <lane id="pedEdge1_0" index="0" speed="1.5" length="50.0" shape="100.00,0.00 100.00,50.00"/>
+    </edge>
+    <edge id="pedEdge2" from="pj2" to="pj1" priority="1" type="pedestrian">
+        <lane id="pedEdge2_0" index="0" speed="1.5" length="50.0" shape="100.00,50.00 100.00,0.00"/>
+    </edge>
+</net>

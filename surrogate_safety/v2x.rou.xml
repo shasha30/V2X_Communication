@@ -1,0 +1,51 @@
+<routes>
+    <vType id="car" accel="1.0" decel="4.5" length="5" maxSpeed="13.9"/>
+    <vType id="bike" vClass="motorcycle" accel="1.5" decel="4.5" length="2.5" maxSpeed="10"/>
+    <vType id="cycle" vClass="bicycle" accel="0.8" decel="3.0" length="2" maxSpeed="7"/>
+
+    <route id="mainRoute" edges="vehEdge"/>
+
+    <!-- Vehicles -->
+    <vehicle id="veh1" type="car" route="mainRoute" depart="1" departLane="random" departPos="random"/>
+    <vehicle id="veh2" type="car" route="mainRoute" depart="3" departLane="random" departPos="random"/>
+    <vehicle id="bike1" type="bike" route="mainRoute" depart="5" departLane="random" departPos="random"/>
+    <vehicle id="bike2" type="bike" route="mainRoute" depart="7" departLane="random" departPos="random"/>
+    <vehicle id="cycle1" type="cycle" route="mainRoute" depart="9" departLane="random" departPos="random"/>
+    <vehicle id="cycle2" type="cycle" route="mainRoute" depart="11" departLane="random" departPos="random"/>
+    <vehicle id="veh3" type="car" route="mainRoute" depart="13" departLane="random" departPos="random"/>
+    <vehicle id="veh4" type="car" route="mainRoute" depart="15" departLane="random" departPos="random"/>
+    <vehicle id="bike3" type="bike" route="mainRoute" depart="17" departLane="random" departPos="random"/>
+    <vehicle id="cycle3" type="cycle" route="mainRoute" depart="19" departLane="random" departPos="random"/>
+
+    <!-- Pedestrians -->
+    <person id="ped1" depart="2">
+        <walk from="pedEdge1" to="pedEdge2" speed="1.2"/>
+    </person>
+    <person id="ped2" depart="4">
+        <walk from="pedEdge2" to="pedEdge1" speed="1.2"/>
+    </person>
+    <person id="ped3" depart="6">
+        <walk from="pedEdge1" to="pedEdge2" speed="1.2"/>
+    </person>
+    <person id="ped4" depart="8">
+        <walk from="pedEdge2" to="pedEdge1" speed="1.2"/>
+    </person>
+    <person id="ped5" depart="10">
+        <walk from="pedEdge1" to="pedEdge2" speed="1.2"/>
+    </person>
+    <person id="ped6" depart="12">
+        <walk from="pedEdge2" to="pedEdge1" speed="1.2"/>
+    </person>
+    <person id="ped7" depart="14">
+        <walk from="pedEdge1" to="pedEdge2" speed="1.2"/>
+    </person>
+    <person id="ped8" depart="16">
+        <walk from="pedEdge2" to="pedEdge1" speed="1.2"/>
+    </person>
+    <person id="ped9" depart="18">
+        <walk from="pedEdge1" to="pedEdge2" speed="1.2"/>
+    </person>
+    <person id="ped10" depart="20">
+        <walk from="pedEdge2" to="pedEdge1" speed="1.2"/>
+    </person>
+</routes>

@@ -1,0 +1,16 @@
+<configuration>
+    <input>
+        <net-file value="v2x.net.xml"/>
+        <route-files value="v2x.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="350"/>
+    </time>
+
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+</configuration>
